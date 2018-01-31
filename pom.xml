@@ -33,9 +33,7 @@
             <groupId>com.wade.daca.sparql.client</groupId>
             <artifactId>DaCASparqlProcessorClient</artifactId>
             <version>1.0.0</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/libs/DaCASparqlProcessorClient.jar</systemPath>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.jena</groupId>
@@ -61,6 +59,10 @@
         <repository>
             <id>spring-releases</id>
             <url>https://repo.spring.io/libs-release</url>
+        </repository>
+        <repository>
+            <id>DaCASpaqrlProcessorClient</id>
+            <url>https://raw.githubusercontent.com/DaCA-wade/DaCASparqlProcessorClient/master</url>
         </repository>
     </repositories>
 
