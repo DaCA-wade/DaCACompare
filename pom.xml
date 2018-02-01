@@ -65,14 +65,8 @@
             <url>https://repo.spring.io/libs-release</url>
         </repository>
         <repository>
-            <id>apache-repo-snapshots</id>
-            <url>https://repository.apache.org/content/repositories/snapshots/</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
+            <id>apache-jena-libs</id>
+            <url>https://mvnrepository.com/artifact/org.apache.jena/apache-jena-libs/</url>
         </repository>
     </repositories>
 
