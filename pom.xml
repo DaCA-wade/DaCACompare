@@ -58,7 +58,7 @@
     <repositories>
         <repository>
             <id>DaCASparqlProcessorClient</id>
-            <url>https://github.com/DaCA-wade/DaCASparqlProcessorClient/blob/master/DaCASparqlProcessorClient.jar</url>
+            <url>https://raw.githubusercontent.com/DaCA-wade/DaCASparqlProcessorClient/master</url>
         </repository>
         <repository>
             <id>spring-releases</id>
